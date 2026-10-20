@@ -34,7 +34,7 @@ const playwrightReport = readFileSync(
   join(root, 'tests/fixtures/reporters/playwright-1.62.1.json'),
   'utf8',
 )
-const vitestReport = readFileSync(join(root, 'tests/fixtures/reporters/vitest-4.1.10.json'), 'utf8')
+const vitestReport = readFileSync(join(root, 'tests/fixtures/reporters/vitest-5.0.5.json'), 'utf8')
 
 interface Run {
   code: number

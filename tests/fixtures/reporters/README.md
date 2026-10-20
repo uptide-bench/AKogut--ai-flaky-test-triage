@@ -7,6 +7,7 @@ and that belief is exactly what breaks on an upgrade.
 | File                     | Produced by                                    | Contains                                                                                                                                                    |
 | ------------------------ | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `playwright-1.62.1.json` | `@playwright/test` JSON reporter, `retries: 2` | nested suites, a pass, an assertion failure retried to exhaustion, a test that failed then passed on retry, a `test.skip` with an annotation, and a timeout |
+| `vitest-5.0.5.json`      | `vitest` JSON reporter                         | a nested `describe`, a pass, an assertion failure, a thrown `TypeError`, and an `it.skip`                                                                   |
 
 Absolute paths from the machine that produced them are rewritten to `/repo`, and the node binary
 path to `/usr/local/bin/node`. Nothing else is edited: the point is that the shape is genuine.
