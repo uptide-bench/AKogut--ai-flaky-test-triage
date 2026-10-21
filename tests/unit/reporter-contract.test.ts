@@ -62,7 +62,7 @@ const runs: [label: string, run: TestRun][] = [
   ['playwright', normalisePlaywrightReport(read('playwright-1.62.1.json'), meta)],
   [
     'vitest',
-    normaliseVitestReport(read('vitest-4.1.10.json'), { ...meta, repositoryRoot: '/repo' }),
+    normaliseVitestReport(read('vitest-5.0.5.json'), { ...meta, repositoryRoot: '/repo' }),
   ],
 ]
 
